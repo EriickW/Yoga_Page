@@ -1,0 +1,10 @@
+@mixin tamanho_caixas() {
+  width: 100%;
+  max-width:111rem;
+  margin: 0 auto;
+}
+@mixin alinhamentos_hori(){
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

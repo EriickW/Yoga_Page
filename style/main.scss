@@ -1,0 +1,18 @@
+@import "functions";
+:root{
+  font-size: 62.5%;
+  --cor-destaque-principal:#FB625A;
+  --cor-destaque-secundario:#145E67;
+  --cor-textos:#5D6679;
+  --cor-fundo:#f8f8f8;
+}
+*{
+  margin: 0;
+  padding:0;
+  box-sizing: border-box;
+}
+body{
+  background: var(--cor-fundo);
+  font-family: Poppins , sans-serif;
+}
+@import "header";

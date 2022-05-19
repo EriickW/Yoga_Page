@@ -1,0 +1,189 @@
+:root {
+  font-size: 62.5%;
+  --cor-destaque-principal:#FB625A;
+  --cor-destaque-secundario:#145E67;
+  --cor-textos:#5D6679;
+  --cor-fundo:#f8f8f8;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  background: var(--cor-fundo);
+  font-family: Poppins , sans-serif;
+}
+
+header {
+  width: 100%;
+  min-height: 100rem;
+  /*================================== NAV ==================================*/
+  /*==================================  End NAV ==================================*/
+  /*================================== Section header ==================================*/
+}
+
+header nav {
+  width: 100%;
+  max-width: 111rem;
+  margin: 0 auto;
+  height: 8rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-bottom: 1rem;
+}
+
+header nav ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  list-style: none;
+  gap: 4rem;
+}
+
+header nav ul a:nth-child(1) {
+  color: var(--cor-destaque-principal);
+}
+
+header nav ul a {
+  color: var(--cor-textos);
+  font-size: 1.4rem;
+  text-decoration: none;
+}
+
+header nav h3 {
+  text-transform: uppercase;
+  color: var(--cor-destaque-secundario);
+  font-size: 3rem;
+  line-height: 3rem;
+}
+
+header nav h3 span {
+  color: var(--cor-destaque-principal);
+}
+
+header nav .sign {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 2.4rem;
+}
+
+header nav .sign p {
+  color: --cor-destaque-principal;
+  font-size: 1.4rem;
+}
+
+header nav .sign button {
+  font-family: Poppins;
+  border: none;
+  color: white;
+  width: 12.8rem;
+  height: 4.6rem;
+  background: var(--cor-destaque-principal);
+  -webkit-box-shadow: 0px 16px 60px rgba(251, 98, 90, 0.35);
+          box-shadow: 0px 16px 60px rgba(251, 98, 90, 0.35);
+  border-radius: 26px;
+}
+
+header .container {
+  width: 100%;
+  max-width: 111rem;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  gap: 10rem;
+}
+
+header .container .content {
+  width: 50rem;
+}
+
+header .container .content h1 {
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 6rem;
+  line-height: 7.6rem;
+  letter-spacing: 0.005em;
+  margin-bottom: 2.8rem;
+  color: var(--cor-destaque-secundario);
+}
+
+header .container .content h1 span {
+  color: var(--cor-destaque-principal);
+}
+
+header .container .content p {
+  color: var(--cor-textos);
+  font-size: 2rem;
+  line-height: 3.6rem;
+  letter-spacing: 0.005em;
+  margin-bottom: 4.8rem;
+}
+
+header .container .content .botoes {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 3.2rem;
+}
+
+header .container .content .botoes button:nth-child(1) {
+  font-family: Poppins;
+  font-size: 1.5rem;
+  border: none;
+  color: white;
+  width: 22rem;
+  height: 5.2rem;
+  background: var(--cor-destaque-principal);
+  -webkit-box-shadow: 0px 16px 60px rgba(251, 98, 90, 0.35);
+          box-shadow: 0px 16px 60px rgba(251, 98, 90, 0.35);
+  border-radius: 2.6rem;
+}
+
+header .container .content .botoes button:nth-child(2) {
+  font-family: Poppins;
+  font-size: 1.5rem;
+  background: none;
+  width: 203px;
+  height: 52px;
+  border: 0.2rem solid var(--cor-destaque-principal);
+  -webkit-filter: drop-shadow(0px 0px 20px rgba(255, 119, 26, 0.2));
+          filter: drop-shadow(0px 0px 20px rgba(255, 119, 26, 0.2));
+  border-radius: 2.6rem;
+  color: var(--cor-destaque-principal);
+}
+
+header .container .content .botoes button:nth-child(2) i {
+  margin-right: 1.5rem;
+}
+
+header .container picture img {
+  width: 60rem;
+}
+/*# sourceMappingURL=main.css.map */

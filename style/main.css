@@ -103,6 +103,18 @@ header nav .sign button {
   -webkit-box-shadow: 0px 16px 60px rgba(251, 98, 90, 0.35);
           box-shadow: 0px 16px 60px rgba(251, 98, 90, 0.35);
   border-radius: 26px;
+  border: 0.2rem solid var(--cor-destaque-principal);
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+header nav .sign button:hover {
+  background: none;
+  border: 0.2rem solid var(--cor-destaque-principal);
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  border-radius: 2.6rem;
+  color: var(--cor-destaque-principal);
 }
 
 header .container {
@@ -118,7 +130,8 @@ header .container {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  gap: 10rem;
+  gap: 5rem;
+  margin-top: 1rem;
 }
 
 header .container .content {
@@ -164,6 +177,18 @@ header .container .content .botoes button:nth-child(1) {
   -webkit-box-shadow: 0px 16px 60px rgba(251, 98, 90, 0.35);
           box-shadow: 0px 16px 60px rgba(251, 98, 90, 0.35);
   border-radius: 2.6rem;
+  border: 0.2rem solid var(--cor-destaque-principal);
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+header .container .content .botoes button:nth-child(1):hover {
+  background: none;
+  border: 0.2rem solid var(--cor-destaque-principal);
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  border-radius: 2.6rem;
+  color: var(--cor-destaque-principal);
 }
 
 header .container .content .botoes button:nth-child(2) {
@@ -177,13 +202,109 @@ header .container .content .botoes button:nth-child(2) {
           filter: drop-shadow(0px 0px 20px rgba(255, 119, 26, 0.2));
   border-radius: 2.6rem;
   color: var(--cor-destaque-principal);
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
 }
 
 header .container .content .botoes button:nth-child(2) i {
   margin-right: 1.5rem;
 }
 
+header .container .content .botoes button:nth-child(2):hover {
+  background: var(--cor-destaque-principal);
+  color: white;
+  -webkit-box-shadow: 0px 16px 60px rgba(251, 98, 90, 0.35);
+          box-shadow: 0px 16px 60px rgba(251, 98, 90, 0.35);
+}
+
 header .container picture img {
-  width: 60rem;
+  width: 70rem;
+}
+
+header .container .seta-header {
+  position: absolute;
+  bottom: -27rem;
+  left: 0;
+  -webkit-transform: translate();
+          transform: translate();
+}
+
+header .container-box {
+  max-height: 50rem;
+  height: 43rem;
+  width: 100%;
+  max-width: 111rem;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 3rem;
+}
+
+header .container-box .box {
+  width: 360px;
+  height: 266px;
+  background: #145d6707;
+  border-radius: 12px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin: 0;
+  padding: 0;
+}
+
+header .container-box .box .content-box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+header .container-box .box .content-box h3 {
+  font-size: 2.8rem;
+  color: var(--cor-destaque-secundario);
+}
+
+header .container-box .box .content-box p {
+  font-size: 1.8rem;
+  text-align: center;
+  width: 32rem;
+  color: var(--cor-textos);
+}
+
+header .container-box .box .content-box img {
+  margin-bottom: 3.2rem;
+}
+
+header .container-box .box:nth-child(2) {
+  background: White;
+  -webkit-box-shadow: 0px 40px 150px -20px rgba(20, 94, 103, 0.18);
+          box-shadow: 0px 40px 150px -20px rgba(20, 94, 103, 0.18);
+}
+
+header .container-box .box:nth-child(2) h3 {
+  color: var(--cor-destaque-principal);
 }
 /*# sourceMappingURL=main.css.map */

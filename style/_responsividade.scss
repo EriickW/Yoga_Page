@@ -1,0 +1,36 @@
+@media (max-width:1300px){
+    
+    :root{
+        font-size: 55%;
+      }
+     
+}
+@media (max-width:1124px){
+    :root{
+        font-size: 50%;
+        
+      }
+     
+      #yoga-img{
+        width: 65rem;
+      }
+  
+}
+@media (max-width:1024px){
+    .container{
+        flex-direction: column;
+        width: 100%;
+        margin-top: 20rem;
+    }
+    .content{
+       order: 2;
+       width: 100%;
+       text-align: center;
+      }
+}
+@media (max-width:900px){
+    .container-box{
+        flex-direction: column;
+        height: 100rem;
+    }
+}

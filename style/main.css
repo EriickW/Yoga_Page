@@ -27,8 +27,8 @@ header {
 }
 
 header nav {
-  width: 100%;
-  max-width: 111rem;
+  width: 111rem;
+  max-width: 100%;
   margin: 0 auto;
   height: 8rem;
   display: -webkit-box;
@@ -118,8 +118,8 @@ header nav .sign button:hover {
 }
 
 header .container {
-  width: 100%;
-  max-width: 111rem;
+  width: 111rem;
+  max-width: 100%;
   margin: 0 auto;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -195,8 +195,8 @@ header .container .content .botoes button:nth-child(2) {
   font-family: Poppins;
   font-size: 1.5rem;
   background: none;
-  width: 203px;
-  height: 52px;
+  width: 20.3rem;
+  height: 5.2;
   border: 0.2rem solid var(--cor-destaque-principal);
   -webkit-filter: drop-shadow(0px 0px 20px rgba(255, 119, 26, 0.2));
           filter: drop-shadow(0px 0px 20px rgba(255, 119, 26, 0.2));
@@ -221,19 +221,10 @@ header .container picture img {
   width: 70rem;
 }
 
-header .container .seta-header {
-  position: absolute;
-  bottom: -27rem;
-  left: 0;
-  -webkit-transform: translate();
-          transform: translate();
-}
-
 header .container-box {
-  max-height: 50rem;
-  height: 43rem;
-  width: 100%;
-  max-width: 111rem;
+  min-height: 43rem;
+  width: 111rem;
+  max-width: 100%;
   margin: 0 auto;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -241,12 +232,15 @@ header .container-box {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   gap: 3rem;
 }
 
 header .container-box .box {
-  width: 360px;
-  height: 266px;
+  width: 36rem;
+  min-height: 26.6rem;
   background: #145d6707;
   border-radius: 12px;
   display: -webkit-box;
@@ -306,5 +300,48 @@ header .container-box .box:nth-child(2) {
 
 header .container-box .box:nth-child(2) h3 {
   color: var(--cor-destaque-principal);
+}
+
+@media (max-width: 1300px) {
+  :root {
+    font-size: 55%;
+  }
+}
+
+@media (max-width: 1124px) {
+  :root {
+    font-size: 50%;
+  }
+  #yoga-img {
+    width: 65rem;
+  }
+}
+
+@media (max-width: 1024px) {
+  .container {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    width: 100%;
+    margin-top: 20rem;
+  }
+  .content {
+    -webkit-box-ordinal-group: 3;
+        -ms-flex-order: 2;
+            order: 2;
+    width: 100%;
+    text-align: center;
+  }
+}
+
+@media (max-width: 900px) {
+  .container-box {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    height: 100rem;
+  }
 }
 /*# sourceMappingURL=main.css.map */

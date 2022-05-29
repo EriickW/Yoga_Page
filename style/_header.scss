@@ -130,8 +130,8 @@ header{
             font-family: Poppins;
             font-size: 1.5rem;
             background: none;
-            width: 203px;
-            height: 52px;
+            width: 20.3rem;
+            height: 5.2;
             border: 0.2rem solid var(--cor-destaque-principal);
             filter: drop-shadow(0px 0px 20px rgba(255, 119, 26, 0.2));
             border-radius: 2.6rem;
@@ -152,24 +152,17 @@ header{
       picture img{
         width: 70rem;
       }
-      .seta-header{
-        position: absolute;
-        bottom: -27rem;
-        left: 0;
-        transform: translate();
-      }
     }
     .container-box{
-      max-height: 50rem;
-      height: 43rem;
-      @include tamanho_caixas();
-      display: flex;
-      align-items: center;
 
+      min-height: 43rem;
+      @include tamanho_caixas();
+    @include alinhamentos_hori();
+   
       gap:3rem;
     .box{
-      width: 360px;
-      height: 266px;
+      width: 36rem;
+      min-height: 26.6rem;
       background: #145d6707;
       border-radius: 12px;
       display: flex;
